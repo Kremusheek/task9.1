@@ -1,0 +1,162 @@
+* {
+    font-family: "Roboto",serif;
+}
+
+main {
+    width: 1920px;
+    height:700px
+
+}
+
+body { 
+    margin:0;
+}
+.firstScreen {
+width: 1521px;
+height: 700px;
+background-color: #eeeff1;
+padding-top: 79px;
+padding-left: 399px;
+}
+p {
+    margin: 0;
+
+}
+.nanMenu {
+
+    display: flex;
+    gap:42px
+}
+
+.nanMenu-item {
+    font-family: "Roboto",serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.navMenu-item:hover{
+    color:#38547c ;
+}
+h1 {
+    color: #000000;
+    padding-top: 162px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 78px;
+}
+h2 {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 7px;
+    width: 540px;
+    height: 67px;
+}
+
+.container2 {
+    width: 1920px;
+    height: 359px;
+    background-color: #f9f9fa;
+
+}
+.Secondscreen  {
+    text-align: center;
+    padding-top: 112px;
+    width: 540px;
+    height: 147px;
+    padding-left: 690px;
+    display: block;
+}
+.Text {
+    
+    display: inline;
+    font-size: 32px;
+    font-weight: 500;
+    align-content: center;
+}
+
+.container4 {
+    width: 1920px;
+    height: 1004px;
+    background-color: #eeeff1;
+}
+.Button1 { 
+    background-color: #38547c;
+    width: 225px;
+    height: 65px;
+    
+    
+}
+h3 {
+    color: #eeeff1;
+    font-size: 16px;
+    font-weight: 400;
+    width: 143px;
+    height: 26px;
+    padding-top: 19px;
+    padding-left:41px ;
+}
+.nearbutton {
+    padding-top: 30px;
+}
+.footer1 {
+    width: 1920px;
+    height: 250px;
+    background-color: #38547c ;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    gap: 49px;
+}
+
+img {
+    width: 141px;
+    height: 50px;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    gap:49px;
+   
+}
+.container5 {
+    width: 1920px;
+    height: 151px;
+    background-color: #38547c;
+}
+.text2 {
+    padding-left: 406px;
+    padding-top:50px ;
+    color:#f9f9fa;
+    font-size: 21px;
+    font-weight: 500;
+
+}
+.add {
+   padding-top:19px; 
+   color: #f9f9fa; 
+   font-size: 13px;
+   font-weight: 400;
+
+}
+h4 {
+    width: 403px;
+    height: 30px;
+    padding-top:100px;
+    padding-left:758px;
+    font-size: 32px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;   
+}
+
+.lorem {
+    padding-left: 690px;
+    text-align: center;
+}
+.image {
+    width: 1110px;
+    height: 600px;
+    padding-left:405px ;
+    padding-top: 57px;
+}
