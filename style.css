@@ -1,7 +1,10 @@
 * {
     font-family: "Roboto",serif;
 }
+p {
+    margin: 0;
 
+}
 main {
     width: 1920px;
     height:700px
@@ -18,10 +21,7 @@ background-color: #eeeff1;
 padding-top: 79px;
 padding-left: 399px;
 }
-p {
-    margin: 0;
 
-}
 .nanMenu {
 
     display: flex;
