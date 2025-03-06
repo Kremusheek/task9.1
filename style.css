@@ -1,12 +1,16 @@
 * {
     font-family: "Roboto",serif;
 }
-
-main {
-    width: 1920px;
-    height:700px
+p {
+    margin: 0;
 
 }
+main {
+    width: 1920px;
+    height:700px;
+    background-color: #eeeff1;
+}
+
 
 body { 
     margin:0;
@@ -18,10 +22,7 @@ background-color: #eeeff1;
 padding-top: 79px;
 padding-left: 399px;
 }
-p {
-    margin: 0;
 
-}
 .nanMenu {
 
     display: flex;
@@ -76,6 +77,7 @@ h2 {
 }
 
 .container4 {
+    margin-top: -40px;
     width: 1920px;
     height: 1004px;
     background-color: #eeeff1;
@@ -161,8 +163,8 @@ h4 {
     padding-top: 57px;
 }
 
-/* 
- @media screen and (max-width:1318px) {
+
+@media screen and (max-width:1318px) {
     main {
        
        height: 1200px;
@@ -252,9 +254,10 @@ h4 {
         font-size: 68px
     }
     h2 {
+        
         font-size: 32px;
         width: 600px;
-        height: 100px;
+        height: 300px;
     }
     .nearbutton {
         padding-top: 100px;
@@ -318,7 +321,7 @@ h4 {
            font-size:26px;
            font-weight: 400;}
            .container4 {
-            height: 1300px;
+            height: 1400px;
            }
            .image {
             width: 1300px;
@@ -327,4 +330,96 @@ h4 {
     padding-top: 100px;
            }
 }
+@media screen and (max-width:600px) {
+    main {
+       
+       height: 1300px;
+    }
+    .nanMenu-item {
+        font-size: 42px;
+    }
+    h1 {
+        font-size: 80px
+    }
+    h2 {
+        
+        font-size: 50px;
+        width: 600px;
+        height: 100px;
+    }
+    .nearbutton {
+        padding-top: 400px;
+    }
+    .Button1 {
+        width: 400px;
+        height: 150px;
+    }
+    h3 {
+        
+    font-size: 40px;
+    font-weight: 400;
+    width: 400px;
+    height: 90px;
+    padding-top: 50px;
+    padding-left: 41px;
+    }
+    .container2 {
+        width: 1920px;
+        height: 800px; }
+    .Text {
+    font-size: 80px;
+    }
+    .container3  {
+        width: 1920px;
+        height: 600px;
+        background-color: #38547c;
+    }
+    .footer1 {
+        flex-wrap:wrap;
+        align-content:space-around;
+        width: 1920px;
+        height: 600px;
+        background-color: #38547c ;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        gap: 49px;}
+        img {
 
+    width:470px;
+    height: 170px;
+    display: flex; 
+    flex-direction:row;
+    align-items: center;
+    gap: 90px;
+        }
+        h4 {
+            width: 440px;
+    height: 150px;
+    font-size: 70px;
+        }
+        
+        .text2 {
+            
+            font-size: 50px;
+            font-weight: 500;
+        
+        }
+        .add {
+
+           font-size:40px;
+           font-weight: 400;}
+           .container4  {
+            margin-top: -87px;
+            width: 1920px;
+            height: 1600px;            
+}
+           .image {
+            width:1600px;
+    height: 700px;
+    padding-left:190px ;
+    padding-top: 350px;
+           }
+           .container5 {
+           height: 300px;}
+}
